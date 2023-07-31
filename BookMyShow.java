@@ -62,5 +62,7 @@ public class BookMyShow {
 		} else {
 			System.out.println("Sign-in validation failed");
 		}
+		
+		driver.quit();
 	}
 }
